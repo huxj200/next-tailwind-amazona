@@ -11,3 +11,10 @@
     1.add data.s
     2.add images
     3.render products
+7.Create Product Details
+    1.create product page
+    2.create 3 columns
+    3.show images in first column
+    4.show product info in second column
+    5.show add to craft action on third column
+    6.add styles
