@@ -25,8 +25,11 @@
     4.add reducer
     5.create store provider
     6.handle add to cart button
-8.Create Cart Page
+9.Create Cart Page
     1.create cart.js
     2.use context to get cart items
     3.list item in cart items
     4.redirect to cart screen after add to cart
+10.Handle Changing Cart Items
+    1.add select box for quantity
+    2.handle select box change
