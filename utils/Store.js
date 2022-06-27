@@ -19,6 +19,7 @@ function reducer(state, action) {
                     item.name === existItem.name ? newItem : item
                 )
                 : [...state.cart.cartItems, newItem];
+            //console.log(" Store1" + state.cart.cartItems);
             return { ...state, cart: { ...state.cart, cartItems } };
         }
         default:
@@ -29,6 +30,7 @@ function reducer(state, action) {
 export function StoreProvider({ children }) {
     const [state, dispatch] = useReducer(reducer, initialState);
     const value = { state, dispatch };
+    //console.log("Store2:" + Store);
     return <Store.Provider value={value}>{children}</Store.Provider>
 }
 

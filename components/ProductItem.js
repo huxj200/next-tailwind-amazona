@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 function ProductItem({ product }) {
-    console.log("key: " + product.key);
+
     return (
         <div className="card">
             <Link href={`/product/${product.slug}`}>
